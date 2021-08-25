@@ -1,9 +1,7 @@
-import time, requests, os, datetime as tie
-from colorama.ansi import Back
+import time, requests, os
 from colorama import Fore
 os.system('pip install requests')
 os.system('pip install colorama')
-timee = tie.datetime.now()
 os.system('cls')
 os.system(f'Title Spammer By Qu3ti')
 print(f"""{Fore.RED}
@@ -21,7 +19,7 @@ print(f"""{Fore.RED}
 
 
 """+Fore.RESET)
-print(f"{Fore.RED}Hora:{Fore.RESET}{Back.RED}{timee}{Back.RESET}")
+
 webhook = input(Fore.RED+'Ingresa Tu Webhook: '+Fore.RESET)
 
 username = input(f"{Fore.RED}Nombre De Webhook: "+Fore.RESET)
